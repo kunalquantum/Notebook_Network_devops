@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBody Networking Notebook</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for Tech Look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Navigation Sidebar / Topbar -->
+        <nav class="phase-nav">
+            <div class="logo">TravelBody <span class="highlight">NetOps</span></div>
+            <div class="phase-list">
+                <button class="phase-btn active" data-phase="1">1. Foundations</button>
+                <button class="phase-btn" data-phase="2">2. Security</button>
+                <button class="phase-btn" data-phase="3">3. Private Nets</button>
+                <button class="phase-btn" data-phase="4">4. Cloud (VPC)</button>
+                <button class="phase-btn" data-phase="5">5. Containers</button>
+                <button class="phase-btn" data-phase="6">6. Kubernetes</button>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <!-- Left Panel: Narrative & Controls -->
+            <section class="narrative-panel">
+                <div id="narrative-content">
+                    <!-- Dynamic Content Injected Here -->
+                    <h1>Welcome to TravelBody</h1>
+                    <p>Initialize the network simulation to begin learning.</p>
+                </div>
+                <div id="controls-area">
+                    <!-- Dynamic Controls Injected Here -->
+                </div>
+            </section>
+
+            <!-- Right Panel: Interactive Visualizer -->
+            <section class="visualizer-panel">
+                <div id="canvas-container">
+                    <!-- Visualizations Rendered Here -->
+                    <div class="placeholder-msg">Select a phase to visualize network topology.</div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
